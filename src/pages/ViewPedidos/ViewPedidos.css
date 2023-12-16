@@ -1,0 +1,38 @@
+/* pages/ViewFuncionario/ViewFuncionario.css */
+
+.view-container3 {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    align-items: center;
+}
+
+.tabelas-container3 {
+    display: flex;
+    align-items: top;
+    justify-content: center; /* Updated to center horizontally */
+}
+
+.tabela-itens-em-andamento3,
+.tabela-itens-entregues3 {
+    margin: 0 10px;
+}
+
+.tabela-itens-em-andamento3 h2,
+.tabela-itens-entregues3 h2 {
+    text-align: center; /* Centering the table titles */
+}
+
+/* The rest of your CSS remains unchanged */
+
+.garcom-button {
+    background-color: #f44336;
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}

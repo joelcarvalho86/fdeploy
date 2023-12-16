@@ -1,0 +1,429 @@
+
+/* pages/ViewFuncionario/ViewFuncionario.css */
+body {
+  transform: scale(0.4);
+  transform-origin: top;
+
+}
+
+.view-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 255);
+  font-family:Arial, Helvetica, sans-serif; 
+
+
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-family: Helvetica, sans-serif; 
+  text-align: center;
+
+}
+
+th, td {
+  border: 1px solid #6da41f;
+  color: rgb(41, 8, 8);
+  padding-left: 5px;
+  text-align: center;
+
+}
+
+th {
+  background-color: #cbabab;
+  color: white;
+  padding: 10px;
+}
+
+button:hover {
+  background-color: #631e18;
+}
+
+thead th {
+  color: rgb(35, 6, 6);
+  
+}
+
+.div-termos{
+  max-width: 800px;
+  width: 100px auto; /* Define um tamanho fixo para o checkbox */
+  height: 100px auto;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #261fa4;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 255); /* Adicione um fundo branco semi-transparente */
+  
+
+}
+
+.banner {
+  width: 100%;
+  background-color: #f0d0ab;
+  color: #440606;
+  padding: 30px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  width:auto; /* Ajuste conforme necessário */
+}
+
+.actions {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1px;
+  background-color: #2f0d0a;
+  font-family:Arial, Helvetica, sans-serif; 
+
+}
+
+.image-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+h2, h6 {
+  font-family:'Trebuchet MS'; 
+  align-items: center;
+  background-color: #f0d0ab;
+
+}
+
+.rodape {
+  background-color: #f0d0ab;
+  color: #030101;
+  padding: 30px;
+  text-align: center;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+  width: auto; /* Ajuste conforme necessário */
+}
+
+
+/* pages/AddFuncionario/AddFuncionario.css */
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 255);
+  
+}
+
+.terms-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #d1caba;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 3px;
+  padding-bottom: 4px;
+  padding-left: 10%;
+}
+
+
+
+.button-b{
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #631e18;
+  color: white;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  border-radius: 7px;
+
+}
+
+/* pages/Contato/Contato.css 
+
+.form-container {
+  max-width: 400px;
+  margin: 100px auto;
+  border: 1px solid #6da41f;
+  font-family:Arial, Helvetica, sans-serif; 
+
+
+}*/
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 8px;
+  font-family:Arial, Helvetica, sans-serif; 
+  display: block;
+  font-weight: bold;
+  color: #020302;
+  font-family:Arial, Helvetica, sans-serif; 
+}
+
+textarea {
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+/*button {
+  background-color: #5c1414;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}*/
+
+
+
+
+/* pages/EditFuncionario/EditFuncionario.css 
+
+.form-container {
+  max-width: 400px;
+  margin: auto;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 255);
+}*/
+
+h1 {
+  text-align: center;
+  color: #420c0c;
+  background-color: #f0d0ab;
+
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-family:Arial, Helvetica, sans-serif; 
+
+}
+/*
+.form-group {
+  margin-bottom: 1px;
+}*/
+
+
+input {
+  width: 100%; 
+  font-size: 19px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 4px;
+  padding: 0px;
+}
+
+
+.edit-funcionario-bg {
+background-image: url('/abstract-7443430_1280.jpg');
+background-size: auto;
+background-position:inherit;
+min-height: 1%; 
+}
+
+
+/* Desktop.css */
+
+.garcom-desktop-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 255);
+}
+
+.garcom-buttons-container {
+  display: grid;
+  grid-template-columns: repeat(2, 0fr);
+  gap: 20px;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.small-buttons .garcom-buttons-container {
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.a1 {
+  background-color: #f0d0ab;
+}
+
+.garcom-button{
+  width: 200px;
+  height: 100px;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  background-color: #410c0c;
+  transition: background-color 0.3s;
+}
+
+.garcom-small-button {
+  width: 200px;
+  height: 70px;
+  background-color: #410c0c;
+  font-size: 25px;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.garcom-button:hover,
+.garcom-small-button:hover {
+  padding-bottom: 20%;
+  background-color: #ff0101;
+}
+
+.username-container {
+  display: block;
+  text-align: center;
+}
+
+.username-container h3 {
+  margin: 0;
+}
+
+/* Outros estilos que você possa precisar adicionar */
+
+
+/* src/pages/Login/Login.css */
+
+.login-container {
+  max-width: 400px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #6da41f;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgba(255, 255, 255, 0.8); /* Adicione um fundo branco semi-transparente */
+
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/abstract-7443430_1280.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; /* Isso faz com que o plano de fundo permaneça fixo enquanto você rola a página */
+  
+}
+
+.h1-a {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #420c0c;
+  font-family:Arial, Helvetica, sans-serif; 
+}
+
+.form-group {
+  margin-bottom: 15px;
+  color: #1521a9;
+  font-size: 20px;
+
+}
+
+
+
+/*input {
+  width: 100%;
+  height: 40px;
+  padding: 7px;
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 7px;
+  text-indent: 10px; 
+
+}*/
+
+.button-login {
+  background-color: #631e18;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 12px;
+  font-size: 20px;
+}
+
+.input-login {
+  width: 100%;
+  height: 40px;
+  color: rgb(7, 4, 4);
+  padding: 7px;
+  border: none;
+  border-radius: 7px;
+  margin-top: 0px;
+  font-size: 20px;
+  margin-bottom: 17px;
+  cursor: pointer;
+}
+
+
+
+.actions2 {
+  display: flex;
+  align-items: center; /* Alinhe os itens verticalmente no centro */
+  justify-content: space-between;
+  background-color: #d1caba;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+  padding-left: 10%;
+  border-radius: 8px; /* Adiciona bordas arredondadas */
+  
+}
+
+.actions2 input {
+  width: 30px; /* Define um tamanho fixo para o checkbox */
+  height: 40px;
+
+}
+.actions3 {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2px;
+  background-color: #2f0d0a;
+  font-family:Arial, Helvetica, sans-serif; 
+  height: 200px;
+  
+}
+
+.captcha-img {
+  max-width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 7px;
+  margin-bottom: 7px;
+  
+}
+
+.div-a{
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-family:Arial, Helvetica, sans-serif;  
+  text-align: center;
+  
+}
+
+/* pages/ViewFuncionario/ViewFuncionario.css */
+
+
+
